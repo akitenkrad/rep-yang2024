@@ -15,7 +15,7 @@ use crate::simulation::SimulationResult;
 /// バイナリ名 (`oasis`) と揃える．
 pub const EXPERIMENT: &str = "oasis";
 /// リポジトリの安定 id．git remote の名前とは独立に固定する．
-pub const REPO_ID: &str = "yang2024";
+pub const REPO_ID: &str = "rep-yang2024";
 /// 分野．BA 網生成・プロフィール割当・活性化の draw に乱数を引くので `simulation`
 /// (= `master_seed` が必須)．
 ///
@@ -52,7 +52,7 @@ pub fn replication() -> Replication {
             "emergent-social-phenomena",
             "Information cascades, group polarization and herd effects emerge from recommender-mediated LLM-agent interaction",
         ))
-        .obsidian_note("研究/98_論文レポート/80-再現実験/実装完了/yang2024/設計書.md")
+        .obsidian_note("研究/98_論文レポート/80-再現実験/実装完了/rep-yang2024/設計書.md")
 }
 
 // ---------------------------------------------------------------------------
